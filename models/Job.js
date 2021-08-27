@@ -8,7 +8,7 @@ const JobSchema = new mongoose.Schema({
   },
   body: {
     type: String,
-    // required: true,
+    required: true,
   },
   status: {
     type: String,
