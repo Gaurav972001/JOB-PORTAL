@@ -20,7 +20,7 @@ router.post('/', ensureAuth, async (req, res) => {
       console.error(err)
       res.render('error/500')
     }
-  })
+  });
 
 // Show all jobs
 // @route   GET /jobs
